@@ -1,0 +1,7 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Debug symbol files (not needed for deployed site)
+app/canvaskit/*.symbols
+app/canvaskit/chromium/*.symbols

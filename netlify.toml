@@ -12,3 +12,14 @@
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/app/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+# Flutter app uses client-side routing — serve index.html for all /app/ paths
+[[redirects]]
+  from = "/app/*"
+  to = "/app/index.html"
+  status = 200

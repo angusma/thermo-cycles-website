@@ -21,6 +21,7 @@
         <span>Thermo Cycles</span>
       </a>
       <div class="nav-links">
+        <a href="app/" class="nav-link-cta">Try Free Calculators</a>
         <a href="#features">Features</a>
         <a href="#download">Download</a>
         <a href="privacy.html">Privacy</a>
@@ -43,11 +44,14 @@
         refrigeration cycles and more. Available in 25 languages.
       </p>
       <div class="hero-actions">
-        <a href="#download" class="btn btn-primary">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-          Download
+        <a href="app/" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          Try it now
         </a>
-        <a href="#features" class="btn btn-ghost">See features</a>
+        <a href="#download" class="btn btn-ghost">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download app
+        </a>
       </div>
       <div class="hero-icon-wrap">
         <img src="assets/icon.png" alt="Thermo Cycles app icon" class="hero-app-icon">
@@ -56,6 +60,32 @@
     </div>
     <div class="hero-fade"></div>
   </header>
+
+  <!-- Screenshots -->
+  <section class="screenshots" id="screenshots">
+    <div class="section-inner">
+      <div class="section-label">See it in action</div>
+      <h2>Built for engineering students</h2>
+      <p class="section-desc">Clean interface, step-by-step calculations, and comprehensive thermodynamic tables.</p>
+      <div class="screenshots-grid">
+        <div class="screenshot-slot">
+          <img src="assets/screenshots/screen1.png" alt="Cycle calculator" onerror="this.parentElement.classList.add('screenshot-empty')">
+        </div>
+        <div class="screenshot-slot">
+          <img src="assets/screenshots/screen2.png" alt="Calculation steps" onerror="this.parentElement.classList.add('screenshot-empty')">
+        </div>
+        <div class="screenshot-slot">
+          <img src="assets/screenshots/screen3.png" alt="Property calculator" onerror="this.parentElement.classList.add('screenshot-empty')">
+        </div>
+        <div class="screenshot-slot">
+          <img src="assets/screenshots/screen4.png" alt="Steam tables" onerror="this.parentElement.classList.add('screenshot-empty')">
+        </div>
+        <div class="screenshot-slot">
+          <img src="assets/screenshots/screen5.png" alt="Cycle diagrams" onerror="this.parentElement.classList.add('screenshot-empty')">
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Features -->
   <section class="features" id="features">
@@ -71,11 +101,11 @@
             <h3>Gas Power Cycles</h3>
           </div>
           <ul class="feature-list">
-            <li><span class="cycle-tag free">Free</span> Carnot Cycle</li>
-            <li><span class="cycle-tag free">Free</span> Otto Cycle</li>
-            <li>Diesel Cycle</li>
-            <li>Brayton Cycle</li>
-            <li>Regenerative Brayton</li>
+            <li><span class="cycle-tag free">Free</span> Carnot Cycle <a href="app/" class="try-link">Try it &rarr;</a></li>
+            <li><span class="cycle-tag free">Free</span> Otto Cycle <a href="app/" class="try-link">Try it &rarr;</a></li>
+            <li><span class="cycle-tag locked">Paid</span> Diesel Cycle</li>
+            <li><span class="cycle-tag locked">Paid</span> Brayton Cycle</li>
+            <li><span class="cycle-tag locked">Paid</span> Regenerative Brayton</li>
           </ul>
         </div>
 
@@ -85,11 +115,11 @@
             <h3>Vapor Power Cycles</h3>
           </div>
           <ul class="feature-list">
-            <li><span class="cycle-tag free">Free</span> Rankine Cycle</li>
-            <li>Reheated Rankine</li>
-            <li>Open Feedwater Heater</li>
-            <li>Closed Feedwater Heater</li>
-            <li>Flash Chamber</li>
+            <li><span class="cycle-tag free">Free</span> Rankine Cycle <a href="app/" class="try-link">Try it &rarr;</a></li>
+            <li><span class="cycle-tag locked">Paid</span> Reheated Rankine</li>
+            <li><span class="cycle-tag locked">Paid</span> Open Feedwater Heater</li>
+            <li><span class="cycle-tag locked">Paid</span> Closed Feedwater Heater</li>
+            <li><span class="cycle-tag locked">Paid</span> Flash Chamber</li>
           </ul>
         </div>
 
@@ -99,8 +129,8 @@
             <h3>Refrigeration Cycles</h3>
           </div>
           <ul class="feature-list">
-            <li>Heat Pump / Refrigeration</li>
-            <li>Cascading Refrigeration</li>
+            <li><span class="cycle-tag locked">Paid</span> Heat Pump / Refrigeration</li>
+            <li><span class="cycle-tag locked">Paid</span> Cascading Refrigeration</li>
           </ul>
         </div>
       </div>
@@ -153,21 +183,44 @@
           <h2>Get Thermo Cycles</h2>
           <p>Free to download. Three cycles included free — unlock more with optional in-app purchases.</p>
           <div class="store-buttons">
-            <a href="#" class="store-btn" aria-label="Download on the App Store">
+            <div class="store-btn store-btn--soon" aria-label="Coming soon to the App Store">
               <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
               <div>
-                <small>Download on the</small>
+                <small>Coming soon to the</small>
                 <strong>App Store</strong>
               </div>
-            </a>
-            <a href="#" class="store-btn" aria-label="Get it on Google Play">
+              <span class="soon-badge">Soon</span>
+            </div>
+            <div class="store-btn store-btn--soon" aria-label="Coming soon to Google Play">
               <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M3.18 23.67c-.37-.2-.64-.55-.78-.97V1.3A1.59 1.59 0 0 1 3.6.11l9.98 9.98L3.18 23.67zM16.23 12.74l-2.56-2.56 7.83-4.43c.62-.35 1.22-.11 1.34.53.05.26-.02.57-.2.83l-6.41 5.63zM13.67 10.09L4.43 1.06l10.82 6.12-1.58 2.91zM4.43 22.94l9.24-9.03 1.58 2.91L4.43 22.94z"/></svg>
               <div>
-                <small>Get it on</small>
+                <small>Coming soon to</small>
                 <strong>Google Play</strong>
               </div>
-            </a>
+              <span class="soon-badge">Soon</span>
+            </div>
           </div>
+          <div class="store-buttons" style="margin-top: 12px;">
+            <div class="store-btn store-btn--soon" aria-label="Coming soon to Windows">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+              <div>
+                <small>Coming soon for</small>
+                <strong>Windows</strong>
+              </div>
+              <span class="soon-badge">Soon</span>
+            </div>
+            <div class="store-btn store-btn--soon" aria-label="Coming soon to macOS">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              <div>
+                <small>Coming soon for</small>
+                <strong>macOS</strong>
+              </div>
+              <span class="soon-badge">Soon</span>
+            </div>
+          </div>
+          <p class="download-web-cta">
+            Or <a href="app/">try the free web calculators now &rarr;</a>
+          </p>
         </div>
       </div>
     </div>
