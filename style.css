@@ -606,6 +606,111 @@ img { display: block; max-width: 100%; }
   border-color: rgba(52, 101, 235, 0.3);
 }
 
+/* ─── Language Switcher ─── */
+.lang-switcher {
+  position: relative;
+  display: inline-flex;
+  margin-left: 4px;
+}
+
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.lang-toggle:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.lang-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  min-width: 180px;
+  max-height: 320px;
+  overflow-y: auto;
+  z-index: 1001;
+  padding: 4px;
+}
+
+.lang-dropdown.open {
+  display: block;
+}
+
+.lang-option {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  background: none;
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--ink-soft);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 6px;
+  transition: all 0.15s;
+}
+
+.lang-option:hover {
+  background: var(--blue-faint);
+  color: var(--blue);
+}
+
+.lang-option.active {
+  color: var(--blue);
+  font-weight: 500;
+  background: var(--blue-faint);
+}
+
+/* ─── RTL Support ─── */
+[dir="rtl"] .nav-inner,
+[dir="rtl"] .nav-links {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .hero-content {
+  text-align: right;
+}
+
+[dir="rtl"] .hero-actions {
+  justify-content: flex-end;
+}
+
+[dir="rtl"] .feature-card-header {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .highlight {
+  text-align: right;
+}
+
+[dir="rtl"] .lang-dropdown {
+  right: auto;
+  left: 0;
+}
+
+[dir="rtl"] .lang-option {
+  text-align: right;
+}
+
 /* ─── Screenshots ─── */
 .screenshots {
   padding: var(--section-pad) 0;

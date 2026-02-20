@@ -21,11 +21,20 @@
         <span>Thermo Cycles</span>
       </a>
       <div class="nav-links">
-        <a href="app/" class="nav-link-cta">Try Free Calculators</a>
-        <a href="#features">Features</a>
-        <a href="#download">Download</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
+        <a href="app/" class="nav-link-cta" data-i18n="nav_try">Try Free Calculators</a>
+        <a href="#features" data-i18n="nav_features">Features</a>
+        <a href="#download" data-i18n="nav_download">Download</a>
+        <a href="privacy.html" data-i18n="nav_privacy">Privacy</a>
+        <a href="terms.html" data-i18n="nav_terms">Terms</a>
+        <!-- Language switcher -->
+        <div class="lang-switcher">
+          <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Change language">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span id="lang-current">English</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div id="lang-dropdown" class="lang-dropdown"></div>
+        </div>
       </div>
     </div>
   </nav>
@@ -36,21 +45,21 @@
     <div class="hero-content">
       <div class="hero-badge">
         <span class="hero-badge-dot"></span>
-        For engineering students
+        <span data-i18n="hero_badge">For engineering students</span>
       </div>
-      <h1>Thermodynamic cycles,<br><em>solved.</em></h1>
-      <p class="hero-sub">
+      <h1><span data-i18n="hero_h1_line1">Thermodynamic cycles,</span><br><em data-i18n="hero_h1_em">solved.</em></h1>
+      <p class="hero-sub" data-i18n="hero_sub">
         A precise, beautiful calculator for Carnot, Otto, Diesel, Brayton, Rankine,
         refrigeration cycles and more. Available in 25 languages.
       </p>
       <div class="hero-actions">
         <a href="app/" class="btn btn-primary">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-          Try it now
+          <span data-i18n="hero_cta">Try it now</span>
         </a>
         <a href="#download" class="btn btn-ghost">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-          Download app
+          <span data-i18n="hero_cta2">Download app</span>
         </a>
       </div>
       <div class="hero-icon-wrap">
@@ -64,9 +73,9 @@
   <!-- Screenshots -->
   <section class="screenshots" id="screenshots">
     <div class="section-inner">
-      <div class="section-label">See it in action</div>
-      <h2>Built for engineering students</h2>
-      <p class="section-desc">Clean interface, step-by-step calculations, and comprehensive thermodynamic tables.</p>
+      <div class="section-label" data-i18n="screenshots_label">See it in action</div>
+      <h2 data-i18n="screenshots_h2">Built for engineering students</h2>
+      <p class="section-desc" data-i18n="screenshots_desc">Clean interface, step-by-step calculations, and comprehensive thermodynamic tables.</p>
       <div class="screenshots-grid">
         <div class="screenshot-slot">
           <img src="assets/screenshots/screen1.png" alt="Cycle calculator" onerror="this.parentElement.classList.add('screenshot-empty')">
@@ -90,47 +99,47 @@
   <!-- Features -->
   <section class="features" id="features">
     <div class="section-inner">
-      <div class="section-label">Capabilities</div>
-      <h2>Every cycle your textbook covers</h2>
-      <p class="section-desc">From introductory thermodynamics to advanced power systems — all with step-by-step state calculations.</p>
+      <div class="section-label" data-i18n="features_label">Capabilities</div>
+      <h2 data-i18n="features_h2">Every cycle your textbook covers</h2>
+      <p class="section-desc" data-i18n="features_desc">From introductory thermodynamics to advanced power systems — all with step-by-step state calculations.</p>
 
       <div class="features-grid">
         <div class="feature-card feature-card--gas">
           <div class="feature-card-header">
             <div class="feature-card-number">01</div>
-            <h3>Gas Power Cycles</h3>
+            <h3 data-i18n="cat_gas">Gas Power Cycles</h3>
           </div>
           <ul class="feature-list">
-            <li><span class="cycle-tag free">Free</span> Carnot Cycle <a href="app/" class="try-link">Try it &rarr;</a></li>
-            <li><span class="cycle-tag free">Free</span> Otto Cycle <a href="app/" class="try-link">Try it &rarr;</a></li>
-            <li><span class="cycle-tag locked">Paid</span> Diesel Cycle</li>
-            <li><span class="cycle-tag locked">Paid</span> Brayton Cycle</li>
-            <li><span class="cycle-tag locked">Paid</span> Regenerative Brayton</li>
+            <li><span class="cycle-tag free" data-i18n="tag_free">Free</span> <span data-i18n="cycle_carnot">Carnot Cycle</span> <a href="app/" class="try-link" data-i18n="try_link">Try it</a></li>
+            <li><span class="cycle-tag free" data-i18n="tag_free">Free</span> <span data-i18n="cycle_otto">Otto Cycle</span> <a href="app/" class="try-link" data-i18n="try_link">Try it</a></li>
+            <li><span class="cycle-tag locked" data-i18n="tag_paid">Paid</span> <span data-i18n="cycle_diesel">Diesel Cycle</span></li>
+            <li><span class="cycle-tag locked" data-i18n="tag_paid">Paid</span> <span data-i18n="cycle_brayton">Brayton Cycle</span></li>
+            <li><span class="cycle-tag locked" data-i18n="tag_paid">Paid</span> <span data-i18n="cycle_regen_brayton">Regenerative Brayton</span></li>
           </ul>
         </div>
 
         <div class="feature-card feature-card--vapor">
           <div class="feature-card-header">
             <div class="feature-card-number">02</div>
-            <h3>Vapor Power Cycles</h3>
+            <h3 data-i18n="cat_vapor">Vapor Power Cycles</h3>
           </div>
           <ul class="feature-list">
-            <li><span class="cycle-tag free">Free</span> Rankine Cycle <a href="app/" class="try-link">Try it &rarr;</a></li>
-            <li><span class="cycle-tag locked">Paid</span> Reheated Rankine</li>
-            <li><span class="cycle-tag locked">Paid</span> Open Feedwater Heater</li>
-            <li><span class="cycle-tag locked">Paid</span> Closed Feedwater Heater</li>
-            <li><span class="cycle-tag locked">Paid</span> Flash Chamber</li>
+            <li><span class="cycle-tag free" data-i18n="tag_free">Free</span> <span data-i18n="cycle_rankine">Rankine Cycle</span> <a href="app/" class="try-link" data-i18n="try_link">Try it</a></li>
+            <li><span class="cycle-tag locked" data-i18n="tag_paid">Paid</span> <span data-i18n="cycle_reheated_rankine">Reheated Rankine</span></li>
+            <li><span class="cycle-tag locked" data-i18n="tag_paid">Paid</span> <span data-i18n="cycle_ofwh">Open Feedwater Heater</span></li>
+            <li><span class="cycle-tag locked" data-i18n="tag_paid">Paid</span> <span data-i18n="cycle_cfwh">Closed Feedwater Heater</span></li>
+            <li><span class="cycle-tag locked" data-i18n="tag_paid">Paid</span> <span data-i18n="cycle_flash_chamber">Flash Chamber</span></li>
           </ul>
         </div>
 
         <div class="feature-card feature-card--ref">
           <div class="feature-card-header">
             <div class="feature-card-number">03</div>
-            <h3>Refrigeration Cycles</h3>
+            <h3 data-i18n="cat_ref">Refrigeration Cycles</h3>
           </div>
           <ul class="feature-list">
-            <li><span class="cycle-tag locked">Paid</span> Heat Pump / Refrigeration</li>
-            <li><span class="cycle-tag locked">Paid</span> Cascading Refrigeration</li>
+            <li><span class="cycle-tag locked" data-i18n="tag_paid">Paid</span> <span data-i18n="cycle_heat_pump_ref">Heat Pump / Refrigeration</span></li>
+            <li><span class="cycle-tag locked" data-i18n="tag_paid">Paid</span> <span data-i18n="cycle_cascading">Cascading Refrigeration</span></li>
           </ul>
         </div>
       </div>
@@ -145,29 +154,29 @@
           <div class="highlight-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
           </div>
-          <h3>25 Languages</h3>
-          <p>Fully translated interface including all cycle diagrams, labels, and UI elements.</p>
+          <h3 data-i18n="hl_languages">25 Languages</h3>
+          <p data-i18n="hl_languages_desc">Fully translated interface including all cycle diagrams, labels, and UI elements.</p>
         </div>
         <div class="highlight">
           <div class="highlight-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
           </div>
-          <h3>SI &amp; Imperial</h3>
-          <p>Switch between metric and imperial units. Calculations adapt automatically.</p>
+          <h3 data-i18n="hl_units">SI &amp; Imperial</h3>
+          <p data-i18n="hl_units_desc">Switch between metric and imperial units. Calculations adapt automatically.</p>
         </div>
         <div class="highlight">
           <div class="highlight-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           </div>
-          <h3>No Data Collection</h3>
-          <p>All calculations run on-device. No analytics, no tracking, no accounts required.</p>
+          <h3 data-i18n="hl_privacy">No Data Collection</h3>
+          <p data-i18n="hl_privacy_desc">All calculations run on-device. No analytics, no tracking, no accounts required.</p>
         </div>
         <div class="highlight">
           <div class="highlight-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
           </div>
-          <h3>Textbook Accurate</h3>
-          <p>Uses published steam tables and R-134a data with standard thermodynamic formulas.</p>
+          <h3 data-i18n="hl_textbook">Textbook Accurate</h3>
+          <p data-i18n="hl_textbook_desc">Uses published steam tables and R-134a data with standard thermodynamic formulas.</p>
         </div>
       </div>
     </div>
@@ -180,46 +189,46 @@
         <div class="download-card-grid-bg"></div>
         <div class="download-card-content">
           <img src="assets/icon.png" alt="Thermo Cycles" class="download-icon">
-          <h2>Get Thermo Cycles</h2>
-          <p>Free to download. Three cycles included free — unlock more with optional in-app purchases.</p>
+          <h2 data-i18n="dl_h2">Get Thermo Cycles</h2>
+          <p data-i18n="dl_desc">Free to download. Three cycles included free — unlock more with optional in-app purchases.</p>
           <div class="store-buttons">
             <div class="store-btn store-btn--soon" aria-label="Coming soon to the App Store">
               <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
               <div>
-                <small>Coming soon to the</small>
-                <strong>App Store</strong>
+                <small data-i18n="dl_appstore_soon">Coming soon to the</small>
+                <strong data-i18n="dl_appstore">App Store</strong>
               </div>
-              <span class="soon-badge">Soon</span>
+              <span class="soon-badge" data-i18n="dl_soon">Soon</span>
             </div>
             <div class="store-btn store-btn--soon" aria-label="Coming soon to Google Play">
               <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M3.18 23.67c-.37-.2-.64-.55-.78-.97V1.3A1.59 1.59 0 0 1 3.6.11l9.98 9.98L3.18 23.67zM16.23 12.74l-2.56-2.56 7.83-4.43c.62-.35 1.22-.11 1.34.53.05.26-.02.57-.2.83l-6.41 5.63zM13.67 10.09L4.43 1.06l10.82 6.12-1.58 2.91zM4.43 22.94l9.24-9.03 1.58 2.91L4.43 22.94z"/></svg>
               <div>
-                <small>Coming soon to</small>
-                <strong>Google Play</strong>
+                <small data-i18n="dl_gplay_soon">Coming soon to</small>
+                <strong data-i18n="dl_gplay">Google Play</strong>
               </div>
-              <span class="soon-badge">Soon</span>
+              <span class="soon-badge" data-i18n="dl_soon">Soon</span>
             </div>
           </div>
           <div class="store-buttons" style="margin-top: 12px;">
             <div class="store-btn store-btn--soon" aria-label="Coming soon to Windows">
               <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
               <div>
-                <small>Coming soon for</small>
-                <strong>Windows</strong>
+                <small data-i18n="dl_win_soon">Coming soon for</small>
+                <strong data-i18n="dl_win">Windows</strong>
               </div>
-              <span class="soon-badge">Soon</span>
+              <span class="soon-badge" data-i18n="dl_soon">Soon</span>
             </div>
             <div class="store-btn store-btn--soon" aria-label="Coming soon to macOS">
               <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
               <div>
-                <small>Coming soon for</small>
-                <strong>macOS</strong>
+                <small data-i18n="dl_mac_soon">Coming soon for</small>
+                <strong data-i18n="dl_mac">macOS</strong>
               </div>
-              <span class="soon-badge">Soon</span>
+              <span class="soon-badge" data-i18n="dl_soon">Soon</span>
             </div>
           </div>
           <p class="download-web-cta">
-            Or <a href="app/">try the free web calculators now &rarr;</a>
+            <span data-i18n="dl_web_or">Or</span> <a href="app/" data-i18n="dl_web_cta">try the free web calculators now</a> &rarr;
           </p>
         </div>
       </div>
@@ -237,12 +246,13 @@
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms &amp; Conditions</a>
       </div>
-      <div class="footer-copy">
+      <div class="footer-copy" data-i18n="footer_copy">
         &copy; 2026 Thermo Cycles. For educational use only.
       </div>
     </div>
   </footer>
 
+  <script src="i18n.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
