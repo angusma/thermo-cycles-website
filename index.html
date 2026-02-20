@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thermo Cycles — Thermodynamic Cycle Calculator</title>
+  <meta name="description" content="Thermo Cycles is a thermodynamic cycle calculator for engineering students. Carnot, Otto, Diesel, Brayton, Rankine, refrigeration cycles and more.">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">
+        <img src="assets/icon.png" alt="Thermo Cycles icon" class="nav-icon">
+        <span>Thermo Cycles</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#download">Download</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        For engineering students
+      </div>
+      <h1>Thermodynamic cycles,<br><em>solved.</em></h1>
+      <p class="hero-sub">
+        A precise, beautiful calculator for Carnot, Otto, Diesel, Brayton, Rankine,
+        refrigeration cycles and more. Available in 25 languages.
+      </p>
+      <div class="hero-actions">
+        <a href="#download" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download
+        </a>
+        <a href="#features" class="btn btn-ghost">See features</a>
+      </div>
+      <div class="hero-icon-wrap">
+        <img src="assets/icon.png" alt="Thermo Cycles app icon" class="hero-app-icon">
+        <div class="hero-icon-glow"></div>
+      </div>
+    </div>
+    <div class="hero-fade"></div>
+  </header>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <div class="section-inner">
+      <div class="section-label">Capabilities</div>
+      <h2>Every cycle your textbook covers</h2>
+      <p class="section-desc">From introductory thermodynamics to advanced power systems — all with step-by-step state calculations.</p>
+
+      <div class="features-grid">
+        <div class="feature-card feature-card--gas">
+          <div class="feature-card-header">
+            <div class="feature-card-number">01</div>
+            <h3>Gas Power Cycles</h3>
+          </div>
+          <ul class="feature-list">
+            <li><span class="cycle-tag free">Free</span> Carnot Cycle</li>
+            <li><span class="cycle-tag free">Free</span> Otto Cycle</li>
+            <li>Diesel Cycle</li>
+            <li>Brayton Cycle</li>
+            <li>Regenerative Brayton</li>
+          </ul>
+        </div>
+
+        <div class="feature-card feature-card--vapor">
+          <div class="feature-card-header">
+            <div class="feature-card-number">02</div>
+            <h3>Vapor Power Cycles</h3>
+          </div>
+          <ul class="feature-list">
+            <li><span class="cycle-tag free">Free</span> Rankine Cycle</li>
+            <li>Reheated Rankine</li>
+            <li>Open Feedwater Heater</li>
+            <li>Closed Feedwater Heater</li>
+            <li>Flash Chamber</li>
+          </ul>
+        </div>
+
+        <div class="feature-card feature-card--ref">
+          <div class="feature-card-header">
+            <div class="feature-card-number">03</div>
+            <h3>Refrigeration Cycles</h3>
+          </div>
+          <ul class="feature-list">
+            <li>Heat Pump / Refrigeration</li>
+            <li>Cascading Refrigeration</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <section class="highlights">
+    <div class="section-inner">
+      <div class="highlights-grid">
+        <div class="highlight">
+          <div class="highlight-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3>25 Languages</h3>
+          <p>Fully translated interface including all cycle diagrams, labels, and UI elements.</p>
+        </div>
+        <div class="highlight">
+          <div class="highlight-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          </div>
+          <h3>SI &amp; Imperial</h3>
+          <p>Switch between metric and imperial units. Calculations adapt automatically.</p>
+        </div>
+        <div class="highlight">
+          <div class="highlight-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>No Data Collection</h3>
+          <p>All calculations run on-device. No analytics, no tracking, no accounts required.</p>
+        </div>
+        <div class="highlight">
+          <div class="highlight-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </div>
+          <h3>Textbook Accurate</h3>
+          <p>Uses published steam tables and R-134a data with standard thermodynamic formulas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download -->
+  <section class="download" id="download">
+    <div class="section-inner">
+      <div class="download-card">
+        <div class="download-card-grid-bg"></div>
+        <div class="download-card-content">
+          <img src="assets/icon.png" alt="Thermo Cycles" class="download-icon">
+          <h2>Get Thermo Cycles</h2>
+          <p>Free to download. Three cycles included free — unlock more with optional in-app purchases.</p>
+          <div class="store-buttons">
+            <a href="#" class="store-btn" aria-label="Download on the App Store">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              <div>
+                <small>Download on the</small>
+                <strong>App Store</strong>
+              </div>
+            </a>
+            <a href="#" class="store-btn" aria-label="Get it on Google Play">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M3.18 23.67c-.37-.2-.64-.55-.78-.97V1.3A1.59 1.59 0 0 1 3.6.11l9.98 9.98L3.18 23.67zM16.23 12.74l-2.56-2.56 7.83-4.43c.62-.35 1.22-.11 1.34.53.05.26-.02.57-.2.83l-6.41 5.63zM13.67 10.09L4.43 1.06l10.82 6.12-1.58 2.91zM4.43 22.94l9.24-9.03 1.58 2.91L4.43 22.94z"/></svg>
+              <div>
+                <small>Get it on</small>
+                <strong>Google Play</strong>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/icon.png" alt="" class="footer-icon">
+        <span>Thermo Cycles</span>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 Thermo Cycles. For educational use only.
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
