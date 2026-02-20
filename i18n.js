@@ -75,6 +75,24 @@ const TRANSLATIONS = {
     dl_web_or: "Or",
     dl_web_cta: "try the free web calculators now",
     footer_copy: "\u00a9 2026 Thermo Cycles. For educational use only.",
+    nav_contact: "Contact",
+    contact_h1: "Contact Us",
+    contact_desc: "Have feedback, a bug report, or a feature request? Send us a message and we'll get back to you.",
+    contact_name_label: "Name",
+    contact_name_placeholder: "Your name",
+    contact_email_label: "Email",
+    contact_email_placeholder: "you@example.com",
+    contact_subject_label: "Subject",
+    contact_subject_feedback: "General Feedback",
+    contact_subject_bug: "Bug Report",
+    contact_subject_feature: "Feature Request",
+    contact_subject_other: "Other",
+    contact_message_label: "Message",
+    contact_message_placeholder: "Tell us what's on your mind...",
+    contact_send: "Send Message",
+    contact_success_h2: "Message sent!",
+    contact_success_desc: "Thanks for reaching out. We'll get back to you as soon as possible.",
+    contact_success_back: "Back to home",
   },
 
   // ── Arabic ──────────────────────────────────────────────────────────────
@@ -127,6 +145,18 @@ const TRANSLATIONS = {
     dl_web_or: "أو",
     dl_web_cta: "جرّب الحاسبات المجانية الآن",
     footer_copy: "\u00a9 2026 Thermo Cycles. للاستخدام التعليمي فقط.",
+    nav_contact: "اتصل بنا",
+    contact_h1: "اتصل بنا",
+    contact_desc: "لديك ملاحظات أو تقرير خطأ أو طلب ميزة؟ أرسل لنا رسالة وسنرد عليك.",
+    contact_name_label: "الاسم", contact_name_placeholder: "اسمك",
+    contact_email_label: "البريد الإلكتروني", contact_email_placeholder: "you@example.com",
+    contact_subject_label: "الموضوع",
+    contact_subject_feedback: "ملاحظات عامة", contact_subject_bug: "تقرير خطأ",
+    contact_subject_feature: "طلب ميزة", contact_subject_other: "أخرى",
+    contact_message_label: "الرسالة", contact_message_placeholder: "أخبرنا بما يدور في ذهنك...",
+    contact_send: "إرسال الرسالة",
+    contact_success_h2: "تم إرسال الرسالة!", contact_success_desc: "شكراً لتواصلك. سنرد عليك في أقرب وقت ممكن.",
+    contact_success_back: "العودة للرئيسية",
   },
 
   // ── German ──────────────────────────────────────────────────────────────
@@ -177,6 +207,18 @@ const TRANSLATIONS = {
     dl_web_or: "Oder",
     dl_web_cta: "jetzt die kostenlosen Web-Rechner testen",
     footer_copy: "\u00a9 2026 Thermo Cycles. Nur für Bildungszwecke.",
+    nav_contact: "Kontakt",
+    contact_h1: "Kontakt",
+    contact_desc: "Feedback, Fehlerbericht oder Feature-Wunsch? Senden Sie uns eine Nachricht und wir melden uns bei Ihnen.",
+    contact_name_label: "Name", contact_name_placeholder: "Ihr Name",
+    contact_email_label: "E-Mail", contact_email_placeholder: "sie@beispiel.de",
+    contact_subject_label: "Betreff",
+    contact_subject_feedback: "Allgemeines Feedback", contact_subject_bug: "Fehlerbericht",
+    contact_subject_feature: "Feature-Wunsch", contact_subject_other: "Sonstiges",
+    contact_message_label: "Nachricht", contact_message_placeholder: "Teilen Sie uns mit, was Sie denken...",
+    contact_send: "Nachricht senden",
+    contact_success_h2: "Nachricht gesendet!", contact_success_desc: "Vielen Dank für Ihre Nachricht. Wir melden uns so bald wie möglich.",
+    contact_success_back: "Zurück zur Startseite",
   },
 
   // ── Spanish ─────────────────────────────────────────────────────────────
@@ -215,6 +257,18 @@ const TRANSLATIONS = {
     dl_h2: "Obtén Thermo Cycles", dl_desc: "Descarga gratuita. Tres ciclos incluidos gratis — desbloquea más con compras opcionales.",
     dl_web_or: "O", dl_web_cta: "prueba las calculadoras web gratis ahora",
     footer_copy: "\u00a9 2026 Thermo Cycles. Solo para uso educativo.",
+    nav_contact: "Contacto",
+    contact_h1: "Contáctenos",
+    contact_desc: "¿Tienes comentarios, un informe de error o una solicitud de función? Envíanos un mensaje y te responderemos.",
+    contact_name_label: "Nombre", contact_name_placeholder: "Tu nombre",
+    contact_email_label: "Correo electrónico", contact_email_placeholder: "tu@ejemplo.com",
+    contact_subject_label: "Asunto",
+    contact_subject_feedback: "Comentarios generales", contact_subject_bug: "Informe de error",
+    contact_subject_feature: "Solicitud de función", contact_subject_other: "Otro",
+    contact_message_label: "Mensaje", contact_message_placeholder: "Cuéntanos lo que piensas...",
+    contact_send: "Enviar mensaje",
+    contact_success_h2: "¡Mensaje enviado!", contact_success_desc: "Gracias por contactarnos. Responderemos lo antes posible.",
+    contact_success_back: "Volver al inicio",
   },
 
   // ── French ──────────────────────────────────────────────────────────────
@@ -246,6 +300,18 @@ const TRANSLATIONS = {
     dl_h2: "Obtenir Thermo Cycles", dl_desc: "Téléchargement gratuit. Trois cycles inclus — débloquez-en plus avec des achats optionnels.",
     dl_web_or: "Ou", dl_web_cta: "essayez les calculateurs web gratuits maintenant",
     footer_copy: "\u00a9 2026 Thermo Cycles. Usage éducatif uniquement.",
+    nav_contact: "Contact",
+    contact_h1: "Nous contacter",
+    contact_desc: "Un retour, un rapport de bug ou une demande de fonctionnalité ? Envoyez-nous un message et nous vous répondrons.",
+    contact_name_label: "Nom", contact_name_placeholder: "Votre nom",
+    contact_email_label: "E-mail", contact_email_placeholder: "vous@exemple.fr",
+    contact_subject_label: "Sujet",
+    contact_subject_feedback: "Commentaires généraux", contact_subject_bug: "Rapport de bug",
+    contact_subject_feature: "Demande de fonctionnalité", contact_subject_other: "Autre",
+    contact_message_label: "Message", contact_message_placeholder: "Dites-nous ce que vous avez en tête...",
+    contact_send: "Envoyer le message",
+    contact_success_h2: "Message envoyé !", contact_success_desc: "Merci de nous avoir contacté. Nous vous répondrons dès que possible.",
+    contact_success_back: "Retour à l'accueil",
   },
 
   // ── Japanese ────────────────────────────────────────────────────────────
@@ -274,6 +340,18 @@ const TRANSLATIONS = {
     dl_h2: "Thermo Cyclesを入手", dl_desc: "無料ダウンロード。3つのサイクルを無料で含む — オプションの購入でさらに解除。",
     dl_web_or: "または", dl_web_cta: "無料ウェブ計算機を今すぐ試す",
     footer_copy: "\u00a9 2026 Thermo Cycles. 教育目的のみ。",
+    nav_contact: "お問い合わせ",
+    contact_h1: "お問い合わせ",
+    contact_desc: "フィードバック、バグ報告、機能リクエストがありますか？メッセージをお送りください。",
+    contact_name_label: "お名前", contact_name_placeholder: "お名前",
+    contact_email_label: "メール", contact_email_placeholder: "you@example.com",
+    contact_subject_label: "件名",
+    contact_subject_feedback: "一般的なフィードバック", contact_subject_bug: "バグ報告",
+    contact_subject_feature: "機能リクエスト", contact_subject_other: "その他",
+    contact_message_label: "メッセージ", contact_message_placeholder: "ご意見をお聞かせください...",
+    contact_send: "メッセージを送信",
+    contact_success_h2: "送信完了！", contact_success_desc: "お問い合わせありがとうございます。できるだけ早くお返事いたします。",
+    contact_success_back: "ホームに戻る",
   },
 
   // ── Chinese (Simplified) ───────────────────────────────────────────────
@@ -302,6 +380,18 @@ const TRANSLATIONS = {
     dl_h2: "获取 Thermo Cycles", dl_desc: "免费下载。包含三个免费循环——通过可选购买解锁更多。",
     dl_web_or: "或", dl_web_cta: "立即试用免费网页计算器",
     footer_copy: "\u00a9 2026 Thermo Cycles. 仅供教育用途。",
+    nav_contact: "联系我们",
+    contact_h1: "联系我们",
+    contact_desc: "有反馈、错误报告或功能请求？给我们发消息，我们会回复您。",
+    contact_name_label: "姓名", contact_name_placeholder: "您的姓名",
+    contact_email_label: "邮箱", contact_email_placeholder: "you@example.com",
+    contact_subject_label: "主题",
+    contact_subject_feedback: "一般反馈", contact_subject_bug: "错误报告",
+    contact_subject_feature: "功能请求", contact_subject_other: "其他",
+    contact_message_label: "留言", contact_message_placeholder: "告诉我们您的想法...",
+    contact_send: "发送消息",
+    contact_success_h2: "消息已发送！", contact_success_desc: "感谢您的联系。我们会尽快回复您。",
+    contact_success_back: "返回首页",
   },
 
   // ── Korean ──────────────────────────────────────────────────────────────
@@ -330,6 +420,18 @@ const TRANSLATIONS = {
     dl_h2: "Thermo Cycles 받기", dl_desc: "무료 다운로드. 세 가지 사이클 무료 포함 — 선택적 구매로 더 많이 해제.",
     dl_web_or: "또는", dl_web_cta: "무료 웹 계산기를 지금 사용해보세요",
     footer_copy: "\u00a9 2026 Thermo Cycles. 교육 목적 전용.",
+    nav_contact: "문의",
+    contact_h1: "문의하기",
+    contact_desc: "피드백, 버그 신고 또는 기능 요청이 있으신가요? 메시지를 보내주시면 답변드리겠습니다.",
+    contact_name_label: "이름", contact_name_placeholder: "이름",
+    contact_email_label: "이메일", contact_email_placeholder: "you@example.com",
+    contact_subject_label: "제목",
+    contact_subject_feedback: "일반 피드백", contact_subject_bug: "버그 신고",
+    contact_subject_feature: "기능 요청", contact_subject_other: "기타",
+    contact_message_label: "메시지", contact_message_placeholder: "의견을 알려주세요...",
+    contact_send: "메시지 보내기",
+    contact_success_h2: "전송 완료!", contact_success_desc: "문의해 주셔서 감사합니다. 가능한 빨리 답변드리겠습니다.",
+    contact_success_back: "홈으로 돌아가기",
   },
 
   // ── Portuguese ──────────────────────────────────────────────────────────
@@ -350,6 +452,18 @@ const TRANSLATIONS = {
     dl_h2: "Obtenha Thermo Cycles", dl_desc: "Download gratuito. Três ciclos grátis — desbloqueie mais com compras opcionais.",
     dl_web_or: "Ou", dl_web_cta: "teste as calculadoras web grátis agora",
     footer_copy: "\u00a9 2026 Thermo Cycles. Apenas para uso educacional.",
+    nav_contact: "Contato",
+    contact_h1: "Fale Conosco",
+    contact_desc: "Tem feedback, um relatório de bug ou um pedido de funcionalidade? Envie-nos uma mensagem e entraremos em contato.",
+    contact_name_label: "Nome", contact_name_placeholder: "Seu nome",
+    contact_email_label: "E-mail", contact_email_placeholder: "voce@exemplo.com",
+    contact_subject_label: "Assunto",
+    contact_subject_feedback: "Feedback geral", contact_subject_bug: "Relatório de bug",
+    contact_subject_feature: "Pedido de funcionalidade", contact_subject_other: "Outro",
+    contact_message_label: "Mensagem", contact_message_placeholder: "Conte-nos o que pensa...",
+    contact_send: "Enviar mensagem",
+    contact_success_h2: "Mensagem enviada!", contact_success_desc: "Obrigado por entrar em contato. Responderemos o mais rápido possível.",
+    contact_success_back: "Voltar ao início",
   },
 
   // ── Russian ─────────────────────────────────────────────────────────────
@@ -370,6 +484,18 @@ const TRANSLATIONS = {
     dl_h2: "Скачать Thermo Cycles", dl_desc: "Бесплатная загрузка. Три цикла бесплатно — разблокируйте больше с дополнительными покупками.",
     dl_web_or: "Или", dl_web_cta: "попробуйте бесплатные веб-калькуляторы сейчас",
     footer_copy: "\u00a9 2026 Thermo Cycles. Только для образовательных целей.",
+    nav_contact: "Контакт",
+    contact_h1: "Свяжитесь с нами",
+    contact_desc: "Есть отзыв, сообщение об ошибке или запрос на функцию? Отправьте нам сообщение, и мы ответим.",
+    contact_name_label: "Имя", contact_name_placeholder: "Ваше имя",
+    contact_email_label: "Эл. почта", contact_email_placeholder: "you@example.com",
+    contact_subject_label: "Тема",
+    contact_subject_feedback: "Общий отзыв", contact_subject_bug: "Отчёт об ошибке",
+    contact_subject_feature: "Запрос функции", contact_subject_other: "Другое",
+    contact_message_label: "Сообщение", contact_message_placeholder: "Расскажите, что у вас на уме...",
+    contact_send: "Отправить сообщение",
+    contact_success_h2: "Сообщение отправлено!", contact_success_desc: "Спасибо за обращение. Мы ответим вам как можно скорее.",
+    contact_success_back: "Вернуться на главную",
   },
 
   // ── Italian ─────────────────────────────────────────────────────────────
@@ -390,6 +516,18 @@ const TRANSLATIONS = {
     dl_h2: "Ottieni Thermo Cycles", dl_desc: "Download gratuito. Tre cicli inclusi gratis — sblocca di più con acquisti opzionali.",
     dl_web_or: "O", dl_web_cta: "prova le calcolatrici web gratuite ora",
     footer_copy: "\u00a9 2026 Thermo Cycles. Solo per uso educativo.",
+    nav_contact: "Contatti",
+    contact_h1: "Contattaci",
+    contact_desc: "Hai un feedback, una segnalazione di bug o una richiesta di funzionalità? Inviaci un messaggio e ti risponderemo.",
+    contact_name_label: "Nome", contact_name_placeholder: "Il tuo nome",
+    contact_email_label: "Email", contact_email_placeholder: "tu@esempio.it",
+    contact_subject_label: "Oggetto",
+    contact_subject_feedback: "Feedback generale", contact_subject_bug: "Segnalazione bug",
+    contact_subject_feature: "Richiesta funzionalità", contact_subject_other: "Altro",
+    contact_message_label: "Messaggio", contact_message_placeholder: "Dicci cosa hai in mente...",
+    contact_send: "Invia messaggio",
+    contact_success_h2: "Messaggio inviato!", contact_success_desc: "Grazie per averci contattato. Ti risponderemo il prima possibile.",
+    contact_success_back: "Torna alla home",
   },
 
   // ── Czech ───────────────────────────────────────────────────────────────
@@ -586,6 +724,12 @@ function applyTranslations(locale) {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     el.textContent = t(locale, key);
+  });
+
+  // Translate elements with data-i18n-placeholder (form inputs)
+  document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+    const key = el.getAttribute("data-i18n-placeholder");
+    el.setAttribute("placeholder", t(locale, key));
   });
 
   // Translate elements with data-i18n-title (tooltips, aria-labels)
