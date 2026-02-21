@@ -23,26 +23,26 @@
       <button class="nav-hamburger" id="nav-hamburger" type="button" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
-      <div class="nav-links" id="nav-links">
-        <a href="app/" class="nav-link-cta" data-i18n="nav_try">Try Free Calculators</a>
-        <a href="#features" data-i18n="nav_features">Features</a>
-        <a href="#download" data-i18n="nav_download">Download</a>
-        <a href="privacy.html" data-i18n="nav_privacy">Privacy</a>
-        <a href="terms.html" data-i18n="nav_terms">Terms</a>
-        <a href="contact.html" data-i18n="nav_contact">Contact</a>
-        <!-- Language switcher -->
-        <div class="lang-switcher">
-          <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Change language">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-            <span id="lang-current">English</span>
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </button>
-          <div id="lang-dropdown" class="lang-dropdown"></div>
-        </div>
-      </div>
     </div>
-    <div class="nav-overlay" id="nav-overlay"></div>
   </nav>
+  <!-- Mobile drawer + overlay (outside nav to avoid backdrop-filter containing block) -->
+  <div class="nav-links" id="nav-links">
+    <a href="app/" class="nav-link-cta" data-i18n="nav_try">Try Free Calculators</a>
+    <a href="#features" data-i18n="nav_features">Features</a>
+    <a href="#download" data-i18n="nav_download">Download</a>
+    <a href="privacy.html" data-i18n="nav_privacy">Privacy</a>
+    <a href="terms.html" data-i18n="nav_terms">Terms</a>
+    <a href="contact.html" data-i18n="nav_contact">Contact</a>
+    <div class="lang-switcher">
+      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Change language">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <span id="lang-current">English</span>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div id="lang-dropdown" class="lang-dropdown"></div>
+    </div>
+  </div>
+  <div class="nav-overlay" id="nav-overlay"></div>
 
   <!-- Hero -->
   <header class="hero" id="hero">

@@ -83,12 +83,20 @@ img { display: block; max-width: 100%; }
   border-radius: 7px;
 }
 
+/* Desktop: nav-links sits visually inside the nav bar */
 .nav-links {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 56px;
   display: flex;
   align-items: center;
   gap: 28px;
   font-size: 13px;
   color: var(--ink-soft);
+  padding-right: max(24px, calc((100vw - var(--max-w)) / 2 + 24px));
+  z-index: 101;
+  pointer-events: auto;
 }
 
 .nav-links a {
@@ -740,9 +748,16 @@ img { display: block; max-width: 100%; }
 }
 
 /* ─── RTL Support ─── */
-[dir="rtl"] .nav-inner,
+[dir="rtl"] .nav-inner {
+  flex-direction: row-reverse;
+}
+
 [dir="rtl"] .nav-links {
   flex-direction: row-reverse;
+  right: auto;
+  left: 0;
+  padding-right: 0;
+  padding-left: max(24px, calc((100vw - var(--max-w)) / 2 + 24px));
 }
 
 [dir="rtl"] .hero-content {
@@ -915,9 +930,6 @@ img { display: block; max-width: 100%; }
   }
 
   .nav-links {
-    position: fixed;
-    top: 0;
-    right: 0;
     width: 280px;
     height: 100vh;
     height: 100dvh;
@@ -926,6 +938,7 @@ img { display: block; max-width: 100%; }
     align-items: flex-start;
     gap: 0;
     padding: 72px 24px 24px;
+    padding-right: 24px;
     z-index: 1000;
     box-shadow: -4px 0 24px rgba(0, 0, 0, 0.1);
     transform: translateX(100%);
