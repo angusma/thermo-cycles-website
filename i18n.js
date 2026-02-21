@@ -790,10 +790,47 @@ function initLanguageSwitcher() {
 }
 
 // ---------------------------------------------------------------------------
+// Mobile hamburger menu
+// ---------------------------------------------------------------------------
+function initHamburger() {
+  const hamburger = document.getElementById("nav-hamburger");
+  const navLinks = document.getElementById("nav-links");
+  const overlay = document.getElementById("nav-overlay");
+
+  function toggleMenu() {
+    const isOpen = navLinks.classList.contains("open");
+    navLinks.classList.toggle("open");
+    if (overlay) overlay.classList.toggle("open");
+    hamburger.classList.toggle("open");
+    document.body.style.overflow = isOpen ? "" : "hidden";
+  }
+
+  function closeMenu() {
+    navLinks.classList.remove("open");
+    if (overlay) overlay.classList.remove("open");
+    hamburger.classList.remove("open");
+    document.body.style.overflow = "";
+  }
+
+  if (hamburger) {
+    hamburger.addEventListener("click", toggleMenu);
+  }
+  if (overlay) {
+    overlay.addEventListener("click", closeMenu);
+  }
+  if (navLinks) {
+    navLinks.querySelectorAll("a").forEach(function (link) {
+      link.addEventListener("click", closeMenu);
+    });
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Init
 // ---------------------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", () => {
   const locale = detectLocale();
   initLanguageSwitcher();
+  initHamburger();
   applyTranslations(locale);
 });

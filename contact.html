@@ -20,13 +20,25 @@
         <img src="assets/icon.png" alt="Thermo Cycles icon" class="nav-icon">
         <span>Thermo Cycles</span>
       </a>
-      <div class="nav-links">
+      <button class="nav-hamburger" id="nav-hamburger" type="button" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
         <a href="/">Home</a>
         <a href="privacy.html">Privacy</a>
         <a href="terms.html">Terms</a>
         <a href="contact.html">Contact</a>
+        <div class="lang-switcher">
+          <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Change language">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span id="lang-current">English</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div id="lang-dropdown" class="lang-dropdown"></div>
+        </div>
       </div>
     </div>
+    <div class="nav-overlay" id="nav-overlay"></div>
   </nav>
 
   <!-- Contact -->
@@ -109,6 +121,7 @@
   </footer>
 
   <script src="i18n.js"></script>
+  <script src="main.js"></script>
   <script>
     // Handle form submission with success message
     const form = document.getElementById('contact-form');
