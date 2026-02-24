@@ -792,7 +792,7 @@ img { display: block; max-width: 100%; }
 
 .screenshots-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 12px;
 }
 
@@ -850,6 +850,19 @@ img { display: block; max-width: 100%; }
 
 .try-link:hover {
   opacity: 1;
+}
+
+/* ─── Active Store Buttons ─── */
+.store-btn--active {
+  background: rgba(255,255,255,0.14);
+  border: 1px solid rgba(255,255,255,0.25);
+}
+
+.store-btn--active:hover {
+  background: rgba(255,255,255,0.22);
+  border-color: rgba(255,255,255,0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(52, 101, 235, 0.3);
 }
 
 /* ─── Coming Soon Store Buttons ─── */
@@ -997,11 +1010,10 @@ img { display: block; max-width: 100%; }
   }
 
   .screenshots-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
-  .screenshot-slot:nth-child(4),
-  .screenshot-slot:nth-child(5) {
+  .screenshot-slot:nth-child(n+5) {
     display: none;
   }
 
@@ -1033,7 +1045,7 @@ img { display: block; max-width: 100%; }
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .screenshot-slot:nth-child(3) {
+  .screenshot-slot:nth-child(n+3) {
     display: none;
   }
 
