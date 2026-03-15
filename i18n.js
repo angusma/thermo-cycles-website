@@ -65,7 +65,7 @@ const TRANSLATIONS = {
     dl_desc: "Free to download. Three cycles included free — unlock more with optional in-app purchases.",
     dl_appstore_label: "Download on the",
     dl_appstore: "App Store",
-    dl_gplay_soon: "Coming soon to",
+    dl_gplay_label: "Get it on",
     dl_gplay: "Google Play",
     dl_win_soon: "Coming soon for",
     dl_win: "Windows",
@@ -93,6 +93,15 @@ const TRANSLATIONS = {
     contact_success_h2: "Message sent!",
     contact_success_desc: "Thanks for reaching out. We'll get back to you as soon as possible.",
     contact_success_back: "Back to home",
+    // SEO meta tags
+    meta_title: "Thermo Cycles \u2014 Thermodynamic Cycle Calculator",
+    meta_description: "Free Carnot, Otto, Diesel, Brayton, Rankine cycle calculator for engineering students. Step-by-step thermodynamic calculations with diagrams. Available on iOS, Android & web.",
+    meta_title_privacy: "Privacy Policy \u2014 Thermo Cycles",
+    meta_description_privacy: "Privacy Policy for the Thermo Cycles thermodynamic cycle calculator app.",
+    meta_title_terms: "Terms & Conditions \u2014 Thermo Cycles",
+    meta_description_terms: "Terms and Conditions for the Thermo Cycles thermodynamic cycle calculator app.",
+    meta_title_contact: "Contact \u2014 Thermo Cycles",
+    meta_description_contact: "Get in touch with the Thermo Cycles team. Send us feedback, bug reports, or feature requests.",
   },
 
   // ── Arabic ──────────────────────────────────────────────────────────────
@@ -143,6 +152,7 @@ const TRANSLATIONS = {
     dl_h2: "احصل على Thermo Cycles",
     dl_desc: "تحميل مجاني. ثلاث دورات مجانية — افتح المزيد بمشتريات اختيارية.",
     dl_appstore_label: "حمّل من",
+    dl_gplay_label: "احصل عليه من",
     dl_mac_label: "حمّل على",
     dl_web_or: "أو",
     dl_web_cta: "جرّب الحاسبات المجانية الآن",
@@ -159,6 +169,14 @@ const TRANSLATIONS = {
     contact_send: "إرسال الرسالة",
     contact_success_h2: "تم إرسال الرسالة!", contact_success_desc: "شكراً لتواصلك. سنرد عليك في أقرب وقت ممكن.",
     contact_success_back: "العودة للرئيسية",
+    meta_title: "Thermo Cycles \u2014 حاسبة الدورات الديناميكية الحرارية",
+    meta_description: "حاسبة مجانية لدورات كارنو، أوتو، ديزل، برايتون، رانكن الديناميكية الحرارية لطلاب الهندسة. حسابات خطوة بخطوة مع رسوم بيانية.",
+    meta_title_privacy: "سياسة الخصوصية \u2014 Thermo Cycles",
+    meta_description_privacy: "سياسة الخصوصية لتطبيق Thermo Cycles حاسبة الدورات الديناميكية الحرارية.",
+    meta_title_terms: "الشروط والأحكام \u2014 Thermo Cycles",
+    meta_description_terms: "الشروط والأحكام لتطبيق Thermo Cycles حاسبة الدورات الديناميكية الحرارية.",
+    meta_title_contact: "اتصل بنا \u2014 Thermo Cycles",
+    meta_description_contact: "تواصل مع فريق Thermo Cycles. أرسل لنا ملاحظاتك أو تقارير الأخطاء أو طلبات الميزات.",
   },
 
   // ── German ──────────────────────────────────────────────────────────────
@@ -207,6 +225,7 @@ const TRANSLATIONS = {
     dl_h2: "Thermo Cycles herunterladen",
     dl_desc: "Kostenloser Download. Drei Kreisprozesse kostenlos — weitere mit optionalen In-App-Käufen freischalten.",
     dl_appstore_label: "Laden im",
+    dl_gplay_label: "Jetzt bei",
     dl_mac_label: "Laden für",
     dl_web_or: "Oder",
     dl_web_cta: "jetzt die kostenlosen Web-Rechner testen",
@@ -223,6 +242,14 @@ const TRANSLATIONS = {
     contact_send: "Nachricht senden",
     contact_success_h2: "Nachricht gesendet!", contact_success_desc: "Vielen Dank für Ihre Nachricht. Wir melden uns so bald wie möglich.",
     contact_success_back: "Zurück zur Startseite",
+    meta_title: "Thermo Cycles \u2014 Thermodynamischer Kreisprozess-Rechner",
+    meta_description: "Kostenloser Carnot-, Otto-, Diesel-, Brayton-, Rankine-Kreisprozess-Rechner für Ingenieurstudenten. Schritt-für-Schritt thermodynamische Berechnungen mit Diagrammen.",
+    meta_title_privacy: "Datenschutzerklärung \u2014 Thermo Cycles",
+    meta_description_privacy: "Datenschutzerklärung der Thermo Cycles App für thermodynamische Kreisprozessberechnungen.",
+    meta_title_terms: "Nutzungsbedingungen \u2014 Thermo Cycles",
+    meta_description_terms: "Nutzungsbedingungen der Thermo Cycles App für thermodynamische Kreisprozessberechnungen.",
+    meta_title_contact: "Kontakt \u2014 Thermo Cycles",
+    meta_description_contact: "Kontaktieren Sie das Thermo Cycles Team. Senden Sie uns Feedback, Fehlerberichte oder Funktionswünsche.",
   },
 
   // ── Spanish ─────────────────────────────────────────────────────────────
@@ -260,6 +287,7 @@ const TRANSLATIONS = {
     hl_textbook: "Precisión de libro de texto", hl_textbook_desc: "Utiliza tablas de vapor publicadas y datos de R-134a con fórmulas termodinámicas estándar.",
     dl_h2: "Obtén Thermo Cycles", dl_desc: "Descarga gratuita. Tres ciclos incluidos gratis — desbloquea más con compras opcionales.",
     dl_appstore_label: "Descargar en el",
+    dl_gplay_label: "Disponible en",
     dl_mac_label: "Descargar en",
     dl_web_or: "O", dl_web_cta: "prueba las calculadoras web gratis ahora",
     footer_copy: "\u00a9 2026 Thermo Cycles. Solo para uso educativo.",
@@ -275,6 +303,14 @@ const TRANSLATIONS = {
     contact_send: "Enviar mensaje",
     contact_success_h2: "¡Mensaje enviado!", contact_success_desc: "Gracias por contactarnos. Responderemos lo antes posible.",
     contact_success_back: "Volver al inicio",
+    meta_title: "Thermo Cycles \u2014 Calculadora de Ciclos Termodinámicos",
+    meta_description: "Calculadora gratuita de ciclos de Carnot, Otto, Diesel, Brayton, Rankine para estudiantes de ingeniería. Cálculos termodinámicos paso a paso con diagramas.",
+    meta_title_privacy: "Política de Privacidad \u2014 Thermo Cycles",
+    meta_description_privacy: "Política de privacidad de la aplicación Thermo Cycles, calculadora de ciclos termodinámicos.",
+    meta_title_terms: "Términos y Condiciones \u2014 Thermo Cycles",
+    meta_description_terms: "Términos y condiciones de la aplicación Thermo Cycles, calculadora de ciclos termodinámicos.",
+    meta_title_contact: "Contacto \u2014 Thermo Cycles",
+    meta_description_contact: "Contacta con el equipo de Thermo Cycles. Envíanos comentarios, informes de errores o solicitudes de funciones.",
   },
 
   // ── French ──────────────────────────────────────────────────────────────
@@ -305,6 +341,7 @@ const TRANSLATIONS = {
     hl_textbook: "Précision académique", hl_textbook_desc: "Utilise des tables de vapeur publiées et des données R-134a avec des formules thermodynamiques standard.",
     dl_h2: "Obtenir Thermo Cycles", dl_desc: "Téléchargement gratuit. Trois cycles inclus — débloquez-en plus avec des achats optionnels.",
     dl_appstore_label: "Télécharger dans l'",
+    dl_gplay_label: "Télécharger sur",
     dl_mac_label: "Télécharger sur",
     dl_web_or: "Ou", dl_web_cta: "essayez les calculateurs web gratuits maintenant",
     footer_copy: "\u00a9 2026 Thermo Cycles. Usage éducatif uniquement.",
@@ -320,6 +357,14 @@ const TRANSLATIONS = {
     contact_send: "Envoyer le message",
     contact_success_h2: "Message envoyé !", contact_success_desc: "Merci de nous avoir contacté. Nous vous répondrons dès que possible.",
     contact_success_back: "Retour à l'accueil",
+    meta_title: "Thermo Cycles \u2014 Calculateur de Cycles Thermodynamiques",
+    meta_description: "Calculateur gratuit de cycles de Carnot, Otto, Diesel, Brayton, Rankine pour étudiants en ingénierie. Calculs thermodynamiques étape par étape avec diagrammes.",
+    meta_title_privacy: "Politique de Confidentialité \u2014 Thermo Cycles",
+    meta_description_privacy: "Politique de confidentialité de l'application Thermo Cycles, calculateur de cycles thermodynamiques.",
+    meta_title_terms: "Conditions Générales \u2014 Thermo Cycles",
+    meta_description_terms: "Conditions générales de l'application Thermo Cycles, calculateur de cycles thermodynamiques.",
+    meta_title_contact: "Contact \u2014 Thermo Cycles",
+    meta_description_contact: "Contactez l'équipe Thermo Cycles. Envoyez-nous vos commentaires, rapports de bugs ou demandes de fonctionnalités.",
   },
 
   // ── Japanese ────────────────────────────────────────────────────────────
@@ -347,6 +392,7 @@ const TRANSLATIONS = {
     hl_textbook: "教科書準拠", hl_textbook_desc: "公開蒸気表とR-134aデータを標準熱力学公式で使用。",
     dl_h2: "Thermo Cyclesを入手", dl_desc: "無料ダウンロード。3つのサイクルを無料で含む — オプションの購入でさらに解除。",
     dl_appstore_label: "からダウンロード",
+    dl_gplay_label: "で入手",
     dl_mac_label: "ダウンロード",
     dl_web_or: "または", dl_web_cta: "無料ウェブ計算機を今すぐ試す",
     footer_copy: "\u00a9 2026 Thermo Cycles. 教育目的のみ。",
@@ -362,6 +408,14 @@ const TRANSLATIONS = {
     contact_send: "メッセージを送信",
     contact_success_h2: "送信完了！", contact_success_desc: "お問い合わせありがとうございます。できるだけ早くお返事いたします。",
     contact_success_back: "ホームに戻る",
+    meta_title: "Thermo Cycles \u2014 熱力学サイクル計算機",
+    meta_description: "工学部学生のための無料カルノー、オットー、ディーゼル、ブレイトン、ランキンサイクル計算機。図付きのステップバイステップ熱力学計算。",
+    meta_title_privacy: "プライバシーポリシー \u2014 Thermo Cycles",
+    meta_description_privacy: "Thermo Cycles 熱力学サイクル計算機アプリのプライバシーポリシー。",
+    meta_title_terms: "利用規約 \u2014 Thermo Cycles",
+    meta_description_terms: "Thermo Cycles 熱力学サイクル計算機アプリの利用規約。",
+    meta_title_contact: "お問い合わせ \u2014 Thermo Cycles",
+    meta_description_contact: "Thermo Cyclesチームにお問い合わせください。フィードバック、バグレポート、機能リクエストをお送りください。",
   },
 
   // ── Chinese (Simplified) ───────────────────────────────────────────────
@@ -389,6 +443,7 @@ const TRANSLATIONS = {
     hl_textbook: "教科书精度", hl_textbook_desc: "使用已发表的蒸汽表和R-134a数据，采用标准热力学公式。",
     dl_h2: "获取 Thermo Cycles", dl_desc: "免费下载。包含三个免费循环——通过可选购买解锁更多。",
     dl_appstore_label: "下载于",
+    dl_gplay_label: "下载于",
     dl_mac_label: "下载于",
     dl_web_or: "或", dl_web_cta: "立即试用免费网页计算器",
     footer_copy: "\u00a9 2026 Thermo Cycles. 仅供教育用途。",
@@ -404,6 +459,14 @@ const TRANSLATIONS = {
     contact_send: "发送消息",
     contact_success_h2: "消息已发送！", contact_success_desc: "感谢您的联系。我们会尽快回复您。",
     contact_success_back: "返回首页",
+    meta_title: "Thermo Cycles \u2014 热力学循环计算器",
+    meta_description: "免费卡诺、奥托、柴油、布雷顿、朗肯循环计算器，专为工程学生设计。含图表的逐步热力学计算。",
+    meta_title_privacy: "隐私政策 \u2014 Thermo Cycles",
+    meta_description_privacy: "Thermo Cycles 热力学循环计算器应用的隐私政策。",
+    meta_title_terms: "条款与条件 \u2014 Thermo Cycles",
+    meta_description_terms: "Thermo Cycles 热力学循环计算器应用的条款与条件。",
+    meta_title_contact: "联系我们 \u2014 Thermo Cycles",
+    meta_description_contact: "联系 Thermo Cycles 团队。向我们发送反馈、错误报告或功能请求。",
   },
 
   // ── Korean ──────────────────────────────────────────────────────────────
@@ -431,6 +494,7 @@ const TRANSLATIONS = {
     hl_textbook: "교과서 정확도", hl_textbook_desc: "표준 열역학 공식과 공개된 증기표 및 R-134a 데이터 사용.",
     dl_h2: "Thermo Cycles 받기", dl_desc: "무료 다운로드. 세 가지 사이클 무료 포함 — 선택적 구매로 더 많이 해제.",
     dl_appstore_label: "다운로드",
+    dl_gplay_label: "다운로드",
     dl_mac_label: "다운로드",
     dl_web_or: "또는", dl_web_cta: "무료 웹 계산기를 지금 사용해보세요",
     footer_copy: "\u00a9 2026 Thermo Cycles. 교육 목적 전용.",
@@ -446,6 +510,14 @@ const TRANSLATIONS = {
     contact_send: "메시지 보내기",
     contact_success_h2: "전송 완료!", contact_success_desc: "문의해 주셔서 감사합니다. 가능한 빨리 답변드리겠습니다.",
     contact_success_back: "홈으로 돌아가기",
+    meta_title: "Thermo Cycles \u2014 열역학 사이클 계산기",
+    meta_description: "공학 학생을 위한 무료 카르노, 오토, 디젤, 브레이턴, 랭킨 사이클 계산기. 다이어그램과 함께 단계별 열역학 계산.",
+    meta_title_privacy: "개인정보 보호정책 \u2014 Thermo Cycles",
+    meta_description_privacy: "Thermo Cycles 열역학 사이클 계산기 앱의 개인정보 보호정책.",
+    meta_title_terms: "이용약관 \u2014 Thermo Cycles",
+    meta_description_terms: "Thermo Cycles 열역학 사이클 계산기 앱의 이용약관.",
+    meta_title_contact: "문의하기 \u2014 Thermo Cycles",
+    meta_description_contact: "Thermo Cycles 팀에 연락하세요. 피드백, 버그 신고 또는 기능 요청을 보내주세요.",
   },
 
   // ── Portuguese ──────────────────────────────────────────────────────────
@@ -465,6 +537,7 @@ const TRANSLATIONS = {
     cycle_cascading: "Refrigeração em Cascata",
     dl_h2: "Obtenha Thermo Cycles", dl_desc: "Download gratuito. Três ciclos grátis — desbloqueie mais com compras opcionais.",
     dl_appstore_label: "Baixar na",
+    dl_gplay_label: "Disponível no",
     dl_mac_label: "Baixar no",
     dl_web_or: "Ou", dl_web_cta: "teste as calculadoras web grátis agora",
     footer_copy: "\u00a9 2026 Thermo Cycles. Apenas para uso educacional.",
@@ -480,6 +553,14 @@ const TRANSLATIONS = {
     contact_send: "Enviar mensagem",
     contact_success_h2: "Mensagem enviada!", contact_success_desc: "Obrigado por entrar em contato. Responderemos o mais rápido possível.",
     contact_success_back: "Voltar ao início",
+    meta_title: "Thermo Cycles \u2014 Calculadora de Ciclos Termodinâmicos",
+    meta_description: "Calculadora gratuita de ciclos de Carnot, Otto, Diesel, Brayton, Rankine para estudantes de engenharia. Cálculos termodinâmicos passo a passo com diagramas.",
+    meta_title_privacy: "Política de Privacidade \u2014 Thermo Cycles",
+    meta_description_privacy: "Política de privacidade do aplicativo Thermo Cycles, calculadora de ciclos termodinâmicos.",
+    meta_title_terms: "Termos e Condições \u2014 Thermo Cycles",
+    meta_description_terms: "Termos e condições do aplicativo Thermo Cycles, calculadora de ciclos termodinâmicos.",
+    meta_title_contact: "Contato \u2014 Thermo Cycles",
+    meta_description_contact: "Entre em contato com a equipe do Thermo Cycles. Envie feedback, relatórios de bugs ou solicitações de recursos.",
   },
 
   // ── Russian ─────────────────────────────────────────────────────────────
@@ -499,6 +580,7 @@ const TRANSLATIONS = {
     cycle_cascading: "Каскадное охлаждение",
     dl_h2: "Скачать Thermo Cycles", dl_desc: "Бесплатная загрузка. Три цикла бесплатно — разблокируйте больше с дополнительными покупками.",
     dl_appstore_label: "Загрузить в",
+    dl_gplay_label: "Скачать в",
     dl_mac_label: "Загрузить для",
     dl_web_or: "Или", dl_web_cta: "попробуйте бесплатные веб-калькуляторы сейчас",
     footer_copy: "\u00a9 2026 Thermo Cycles. Только для образовательных целей.",
@@ -514,6 +596,14 @@ const TRANSLATIONS = {
     contact_send: "Отправить сообщение",
     contact_success_h2: "Сообщение отправлено!", contact_success_desc: "Спасибо за обращение. Мы ответим вам как можно скорее.",
     contact_success_back: "Вернуться на главную",
+    meta_title: "Thermo Cycles \u2014 Калькулятор термодинамических циклов",
+    meta_description: "Бесплатный калькулятор циклов Карно, Отто, Дизеля, Брайтона, Ренкина для студентов-инженеров. Пошаговые термодинамические расчёты с диаграммами.",
+    meta_title_privacy: "Политика конфиденциальности \u2014 Thermo Cycles",
+    meta_description_privacy: "Политика конфиденциальности приложения Thermo Cycles — калькулятора термодинамических циклов.",
+    meta_title_terms: "Условия использования \u2014 Thermo Cycles",
+    meta_description_terms: "Условия использования приложения Thermo Cycles — калькулятора термодинамических циклов.",
+    meta_title_contact: "Контакты \u2014 Thermo Cycles",
+    meta_description_contact: "Свяжитесь с командой Thermo Cycles. Отправьте отзыв, сообщение об ошибке или запрос функции.",
   },
 
   // ── Italian ─────────────────────────────────────────────────────────────
@@ -533,6 +623,7 @@ const TRANSLATIONS = {
     cycle_cascading: "Refrigerazione a Cascata",
     dl_h2: "Ottieni Thermo Cycles", dl_desc: "Download gratuito. Tre cicli inclusi gratis — sblocca di più con acquisti opzionali.",
     dl_appstore_label: "Scarica su",
+    dl_gplay_label: "Scarica su",
     dl_mac_label: "Scarica per",
     dl_web_or: "O", dl_web_cta: "prova le calcolatrici web gratuite ora",
     footer_copy: "\u00a9 2026 Thermo Cycles. Solo per uso educativo.",
@@ -548,6 +639,14 @@ const TRANSLATIONS = {
     contact_send: "Invia messaggio",
     contact_success_h2: "Messaggio inviato!", contact_success_desc: "Grazie per averci contattato. Ti risponderemo il prima possibile.",
     contact_success_back: "Torna alla home",
+    meta_title: "Thermo Cycles \u2014 Calcolatore di Cicli Termodinamici",
+    meta_description: "Calcolatore gratuito di cicli di Carnot, Otto, Diesel, Brayton, Rankine per studenti di ingegneria. Calcoli termodinamici passo dopo passo con diagrammi.",
+    meta_title_privacy: "Informativa sulla Privacy \u2014 Thermo Cycles",
+    meta_description_privacy: "Informativa sulla privacy dell'app Thermo Cycles, calcolatore di cicli termodinamici.",
+    meta_title_terms: "Termini e Condizioni \u2014 Thermo Cycles",
+    meta_description_terms: "Termini e condizioni dell'app Thermo Cycles, calcolatore di cicli termodinamici.",
+    meta_title_contact: "Contatti \u2014 Thermo Cycles",
+    meta_description_contact: "Contatta il team di Thermo Cycles. Inviaci feedback, segnalazioni di bug o richieste di funzionalità.",
   },
 
   // ── Czech ───────────────────────────────────────────────────────────────
@@ -560,6 +659,14 @@ const TRANSLATIONS = {
     cycle_flash_chamber: "Expandní komora", cycle_heat_pump_ref: "Tepelné čerpadlo / Chlazení",
     cycle_cascading: "Kaskádové chlazení",
     tag_free: "Zdarma", tag_paid: "Placené",
+    meta_title: "Thermo Cycles \u2014 Kalkulačka termodynamických cyklů",
+    meta_description: "Bezplatná kalkulačka Carnotova, Ottova, Dieselova, Braytonova, Rankinova cyklu pro studenty inženýrství. Termodynamické výpočty krok za krokem s diagramy.",
+    meta_title_privacy: "Zásady ochrany osobních údajů \u2014 Thermo Cycles",
+    meta_description_privacy: "Zásady ochrany osobních údajů aplikace Thermo Cycles, kalkulačky termodynamických cyklů.",
+    meta_title_terms: "Podmínky použití \u2014 Thermo Cycles",
+    meta_description_terms: "Podmínky použití aplikace Thermo Cycles, kalkulačky termodynamických cyklů.",
+    meta_title_contact: "Kontakt \u2014 Thermo Cycles",
+    meta_description_contact: "Kontaktujte tým Thermo Cycles. Pošlete nám zpětnou vazbu, hlášení chyb nebo požadavky na funkce.",
   },
 
   // ── Greek ───────────────────────────────────────────────────────────────
@@ -632,6 +739,14 @@ const TRANSLATIONS = {
     cycle_flash_chamber: "Komora rozprężna", cycle_heat_pump_ref: "Pompa ciepła / Chłodzenie",
     cycle_cascading: "Chłodzenie kaskadowe",
     tag_free: "Bezpłatny", tag_paid: "Płatny",
+    meta_title: "Thermo Cycles \u2014 Kalkulator obiegów termodynamicznych",
+    meta_description: "Darmowy kalkulator obiegów Carnota, Otta, Diesla, Braytona, Rankine'a dla studentów inżynierii. Obliczenia termodynamiczne krok po kroku z wykresami.",
+    meta_title_privacy: "Polityka prywatności \u2014 Thermo Cycles",
+    meta_description_privacy: "Polityka prywatności aplikacji Thermo Cycles — kalkulatora obiegów termodynamicznych.",
+    meta_title_terms: "Regulamin \u2014 Thermo Cycles",
+    meta_description_terms: "Regulamin aplikacji Thermo Cycles — kalkulatora obiegów termodynamicznych.",
+    meta_title_contact: "Kontakt \u2014 Thermo Cycles",
+    meta_description_contact: "Skontaktuj się z zespołem Thermo Cycles. Wyślij nam opinię, zgłoszenie błędu lub propozycję funkcji.",
   },
 
   // ── Thai ────────────────────────────────────────────────────────────────
@@ -656,6 +771,14 @@ const TRANSLATIONS = {
     cycle_flash_chamber: "Flaş Odası", cycle_heat_pump_ref: "Isı Pompası / Soğutma",
     cycle_cascading: "Kademeli Soğutma",
     tag_free: "Ücretsiz", tag_paid: "Ücretli",
+    meta_title: "Thermo Cycles \u2014 Termodinamik Çevrim Hesap Makinesi",
+    meta_description: "Mühendislik öğrencileri için ücretsiz Carnot, Otto, Diesel, Brayton, Rankine çevrim hesap makinesi. Diyagramlarla adım adım termodinamik hesaplamalar.",
+    meta_title_privacy: "Gizlilik Politikası \u2014 Thermo Cycles",
+    meta_description_privacy: "Thermo Cycles termodinamik çevrim hesap makinesi uygulamasının gizlilik politikası.",
+    meta_title_terms: "Kullanım Koşulları \u2014 Thermo Cycles",
+    meta_description_terms: "Thermo Cycles termodinamik çevrim hesap makinesi uygulamasının kullanım koşulları.",
+    meta_title_contact: "İletişim \u2014 Thermo Cycles",
+    meta_description_contact: "Thermo Cycles ekibiyle iletişime geçin. Geri bildirim, hata raporları veya özellik istekleri gönderin.",
   },
 
   // ── Vietnamese ──────────────────────────────────────────────────────────
@@ -668,6 +791,14 @@ const TRANSLATIONS = {
     cycle_flash_chamber: "Buồng bay hơi nhanh", cycle_heat_pump_ref: "Bơm nhiệt / Làm lạnh",
     cycle_cascading: "Làm lạnh nhiều tầng",
     tag_free: "Miễn phí", tag_paid: "Trả phí",
+    meta_title: "Thermo Cycles \u2014 Máy tính chu trình nhiệt động lực học",
+    meta_description: "Máy tính miễn phí chu trình Carnot, Otto, Diesel, Brayton, Rankine cho sinh viên kỹ thuật. Tính toán nhiệt động lực học từng bước với sơ đồ.",
+    meta_title_privacy: "Chính sách bảo mật \u2014 Thermo Cycles",
+    meta_description_privacy: "Chính sách bảo mật ứng dụng Thermo Cycles — máy tính chu trình nhiệt động lực học.",
+    meta_title_terms: "Điều khoản sử dụng \u2014 Thermo Cycles",
+    meta_description_terms: "Điều khoản sử dụng ứng dụng Thermo Cycles — máy tính chu trình nhiệt động lực học.",
+    meta_title_contact: "Liên hệ \u2014 Thermo Cycles",
+    meta_description_contact: "Liên hệ với đội ngũ Thermo Cycles. Gửi phản hồi, báo lỗi hoặc yêu cầu tính năng.",
   },
 };
 
@@ -772,6 +903,76 @@ function applyTranslations(locale) {
 
   // Save preference
   localStorage.setItem("tc_lang", locale);
+
+  // ── SEO: Update <head> meta tags ──────────────────────────────────────
+  const BASE_URL = "https://thermocycles.netlify.app";
+  const SEO_LANGS = ["en","de","es","fr","it","pt","ru","pl","tr","vi","cs"];
+  const path = window.location.pathname.replace(/\/index\.html$/, "/");
+
+  // Determine page-specific meta key suffix
+  let pageSuffix = "";
+  if (path.includes("privacy")) pageSuffix = "_privacy";
+  else if (path.includes("terms")) pageSuffix = "_terms";
+  else if (path.includes("contact")) pageSuffix = "_contact";
+
+  // 1. Title
+  document.title = t(locale, "meta_title" + pageSuffix);
+
+  // 2. Meta description
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) metaDesc.setAttribute("content", t(locale, "meta_description" + pageSuffix));
+
+  // 3. Canonical URL
+  const canonicalHref = locale === "en"
+    ? BASE_URL + path
+    : BASE_URL + path + (path.includes("?") ? "&" : "?") + "lang=" + locale;
+  let canonical = document.querySelector('link[rel="canonical"]');
+  if (!canonical) {
+    canonical = document.createElement("link");
+    canonical.setAttribute("rel", "canonical");
+    document.head.appendChild(canonical);
+  }
+  canonical.setAttribute("href", canonicalHref);
+
+  // 4. Hreflang link tags
+  document.querySelectorAll('link[rel="alternate"][hreflang]').forEach(el => el.remove());
+  SEO_LANGS.forEach(lang => {
+    const link = document.createElement("link");
+    link.setAttribute("rel", "alternate");
+    link.setAttribute("hreflang", lang);
+    link.setAttribute("href", lang === "en" ? BASE_URL + path : BASE_URL + path + "?lang=" + lang);
+    document.head.appendChild(link);
+  });
+  const xdefLink = document.createElement("link");
+  xdefLink.setAttribute("rel", "alternate");
+  xdefLink.setAttribute("hreflang", "x-default");
+  xdefLink.setAttribute("href", BASE_URL + path);
+  document.head.appendChild(xdefLink);
+
+  // 5. Open Graph tags
+  function setOG(prop, content) {
+    let el = document.querySelector('meta[property="' + prop + '"]');
+    if (!el) { el = document.createElement("meta"); el.setAttribute("property", prop); document.head.appendChild(el); }
+    el.setAttribute("content", content);
+  }
+  setOG("og:title", t(locale, "meta_title" + pageSuffix));
+  setOG("og:description", t(locale, "meta_description" + pageSuffix));
+  setOG("og:type", "website");
+  setOG("og:url", canonicalHref);
+  setOG("og:image", BASE_URL + "/assets/icon.png");
+  setOG("og:site_name", "Thermo Cycles");
+  setOG("og:locale", locale);
+
+  // 6. Twitter Card tags
+  function setTwitter(name, content) {
+    let el = document.querySelector('meta[name="twitter:' + name + '"]');
+    if (!el) { el = document.createElement("meta"); el.setAttribute("name", "twitter:" + name); document.head.appendChild(el); }
+    el.setAttribute("content", content);
+  }
+  setTwitter("card", "summary");
+  setTwitter("title", t(locale, "meta_title" + pageSuffix));
+  setTwitter("description", t(locale, "meta_description" + pageSuffix));
+  setTwitter("image", BASE_URL + "/assets/icon.png");
 }
 
 // ---------------------------------------------------------------------------

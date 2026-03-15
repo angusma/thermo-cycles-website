@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ─── Homepage ─────────────────────────────────────────────────────── -->
+  <url>
+    <loc>https://thermocycles.netlify.app/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://thermocycles.netlify.app/?lang=de</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://thermocycles.netlify.app/?lang=es</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://thermocycles.netlify.app/?lang=fr</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://thermocycles.netlify.app/?lang=it</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://thermocycles.netlify.app/?lang=pt</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://thermocycles.netlify.app/?lang=ru</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://thermocycles.netlify.app/?lang=pl</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://thermocycles.netlify.app/?lang=tr</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://thermocycles.netlify.app/?lang=vi</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://thermocycles.netlify.app/?lang=cs</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ─── Privacy Policy ───────────────────────────────────────────────── -->
+  <url>
+    <loc>https://thermocycles.netlify.app/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/privacy.html?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/privacy.html?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/privacy.html?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/privacy.html?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/privacy.html?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/privacy.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/privacy.html?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/privacy.html?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/privacy.html?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/privacy.html?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- ─── Terms & Conditions ──────────────────────────────────────────── -->
+  <url>
+    <loc>https://thermocycles.netlify.app/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/terms.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/terms.html?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/terms.html?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/terms.html?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/terms.html?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/terms.html?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/terms.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/terms.html?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/terms.html?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/terms.html?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/terms.html?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- ─── Contact ──────────────────────────────────────────────────────── -->
+  <url>
+    <loc>https://thermocycles.netlify.app/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/contact.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/contact.html?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/contact.html?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/contact.html?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/contact.html?lang=it" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/contact.html?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/contact.html?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/contact.html?lang=pl" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/contact.html?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/contact.html?lang=vi" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/contact.html?lang=cs" />
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

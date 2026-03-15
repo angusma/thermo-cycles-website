@@ -4,8 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thermo Cycles — Thermodynamic Cycle Calculator</title>
-  <meta name="description" content="Thermo Cycles is a thermodynamic cycle calculator for engineering students. Carnot, Otto, Diesel, Brayton, Rankine, refrigeration cycles and more.">
+  <meta name="description" content="Free Carnot, Otto, Diesel, Brayton, Rankine cycle calculator for engineering students. Step-by-step thermodynamic calculations with diagrams. Available on iOS, Android & web.">
   <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="canonical" href="https://thermocycles.netlify.app/">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Thermo Cycles — Thermodynamic Cycle Calculator">
+  <meta property="og:description" content="Free Carnot, Otto, Diesel, Brayton, Rankine cycle calculator for engineering students. Step-by-step thermodynamic calculations with diagrams.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thermocycles.netlify.app/">
+  <meta property="og:image" content="https://thermocycles.netlify.app/assets/icon.png">
+  <meta property="og:site_name" content="Thermo Cycles">
+  <meta property="og:locale" content="en">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Thermo Cycles — Thermodynamic Cycle Calculator">
+  <meta name="twitter:description" content="Free Carnot, Otto, Diesel, Brayton, Rankine cycle calculator for engineering students.">
+  <meta name="twitter:image" content="https://thermocycles.netlify.app/assets/icon.png">
+  <!-- Hreflang (static defaults; i18n.js updates dynamically) -->
+  <link rel="alternate" hreflang="x-default" href="https://thermocycles.netlify.app/">
+  <link rel="alternate" hreflang="en" href="https://thermocycles.netlify.app/">
+  <link rel="alternate" hreflang="de" href="https://thermocycles.netlify.app/?lang=de">
+  <link rel="alternate" hreflang="es" href="https://thermocycles.netlify.app/?lang=es">
+  <link rel="alternate" hreflang="fr" href="https://thermocycles.netlify.app/?lang=fr">
+  <link rel="alternate" hreflang="it" href="https://thermocycles.netlify.app/?lang=it">
+  <link rel="alternate" hreflang="pt" href="https://thermocycles.netlify.app/?lang=pt">
+  <link rel="alternate" hreflang="ru" href="https://thermocycles.netlify.app/?lang=ru">
+  <link rel="alternate" hreflang="pl" href="https://thermocycles.netlify.app/?lang=pl">
+  <link rel="alternate" hreflang="tr" href="https://thermocycles.netlify.app/?lang=tr">
+  <link rel="alternate" hreflang="vi" href="https://thermocycles.netlify.app/?lang=vi">
+  <link rel="alternate" hreflang="cs" href="https://thermocycles.netlify.app/?lang=cs">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
@@ -213,14 +240,13 @@
                 <strong data-i18n="dl_appstore">App Store</strong>
               </div>
             </a>
-            <div class="store-btn store-btn--soon" aria-label="Coming soon to Google Play">
+            <a href="https://play.google.com/store/apps/details?id=com.amalcolm.thermo_cycles" class="store-btn store-btn--active" target="_blank" rel="noopener noreferrer" aria-label="Get it on Google Play">
               <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M3.18 23.67c-.37-.2-.64-.55-.78-.97V1.3A1.59 1.59 0 0 1 3.6.11l9.98 9.98L3.18 23.67zM16.23 12.74l-2.56-2.56 7.83-4.43c.62-.35 1.22-.11 1.34.53.05.26-.02.57-.2.83l-6.41 5.63zM13.67 10.09L4.43 1.06l10.82 6.12-1.58 2.91zM4.43 22.94l9.24-9.03 1.58 2.91L4.43 22.94z"/></svg>
               <div>
-                <small data-i18n="dl_gplay_soon">Coming soon to</small>
+                <small data-i18n="dl_gplay_label">Get it on</small>
                 <strong data-i18n="dl_gplay">Google Play</strong>
               </div>
-              <span class="soon-badge" data-i18n="dl_soon">Soon</span>
-            </div>
+            </a>
           </div>
           <div class="store-buttons" style="margin-top: 12px;">
             <div class="store-btn store-btn--soon" aria-label="Coming soon to Windows">
@@ -264,6 +290,48 @@
       </div>
     </div>
   </footer>
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "Thermo Cycles",
+        "description": "Thermodynamic cycle calculator for engineering students. Carnot, Otto, Diesel, Brayton, Rankine, refrigeration, and cascading cycle calculations with step-by-step solutions and interactive diagrams.",
+        "url": "https://thermocycles.netlify.app/",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "iOS, macOS, Android, Web",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "inLanguage": ["en", "de", "es", "fr", "it", "pt", "ru", "pl", "tr", "vi", "cs", "ar", "ja", "zh", "ko", "hi", "uk", "nl", "sv", "da", "el"],
+        "keywords": [
+          "thermodynamic cycle calculator",
+          "Carnot cycle", "Otto cycle", "Diesel cycle",
+          "Brayton cycle", "Rankine cycle",
+          "refrigeration cycle", "cascade cycle",
+          "thermodynamics", "engineering calculator",
+          "Kreisprozess Rechner", "ciclo termodinamico",
+          "cycle thermodynamique", "ciclo termodinâmico"
+        ],
+        "image": "https://thermocycles.netlify.app/assets/icon.png",
+        "author": {
+          "@type": "Organization",
+          "name": "Thermo Cycles"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "name": "Thermo Cycles",
+        "url": "https://thermocycles.netlify.app/"
+      }
+    ]
+  }
+  </script>
 
   <script src="i18n.js"></script>
   <script src="main.js"></script>
